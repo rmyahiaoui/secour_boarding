@@ -1,0 +1,48 @@
+<phpunit
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="http://schema.phpunit.de/5.7/phpunit.xsd"
+        bootstrap="bootstrap.php"
+        beStrictAboutChangesToGlobalState="true"
+        beStrictAboutOutputDuringTests="true"
+        beStrictAboutResourceUsageDuringSmallTests="true"
+        beStrictAboutTestsThatDoNotTestAnything="true"
+        beStrictAboutTodoAnnotatedTests="true"
+        beStrictAboutCoversAnnotation="true"
+        failOnRisky="true"
+        failOnWarning="true">
+    <php>
+        <includePath>.</includePath>
+        <server name="http_proxy" value=""/>
+        <server name="https_proxy" value=""/>
+        <server name="ftp_proxy" value=""/>
+    </php>
+    <logging>
+        <log type="coverage-clover" target="../log/test-coverage.xml"/>
+        <log type="junit" target="../log/test-results.xml" logIncompleteSkipped="true"/>
+    </logging>
+    <testsuites>
+        <testsuite name="AllTests">
+            <directory suffix="Test.php">.</directory>
+        </testsuite>
+    </testsuites>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">../bms</directory>
+            <directory suffix=".php">../cgi-bin</directory>
+            <directory suffix=".php">../classes</directory>
+            <directory suffix=".php">../crontab</directory>
+            <directory suffix=".php">../includes</directory>
+            <directory suffix=".php">../scripts</directory>
+            <directory suffix=".php">../webservices</directory>
+            <file>../ajax.php</file>
+            <file>../check.php</file>
+            <file>../index2.php</file>
+            <file>../info.php</file>
+            <file>../login.php</file>
+            <file>../logout.php</file>
+            <exclude>
+                <directory suffix=".php">../includes/fpdf</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
