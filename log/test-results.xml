@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+  <testsuite name="AllTests" tests="26" assertions="84" failures="0" errors="0" time="0.248335">
+    <testsuite name="BusTicketTest" file="/home/synapse/projects/secour_boarding/tests/BusTicketTest.php" tests="7" assertions="21" failures="0" errors="0" time="0.074531">
+      <testsuite name="BusTicketTest::testBuildFromData" tests="1" assertions="9" failures="0" errors="0" time="0.023760">
+        <testcase name="testBuildFromData with data set &quot;DATA_BUS&quot;" assertions="9" time="0.023760"/>
+      </testsuite>
+      <testsuite name="BusTicketTest::testGetItenaryMsg" tests="1" assertions="2" failures="0" errors="0" time="0.009127">
+        <testcase name="testGetItenaryMsg with data set &quot;DATA_BUS&quot;" assertions="2" time="0.009127"/>
+      </testsuite>
+      <testsuite name="BusTicketTest::testCheck" tests="5" assertions="10" failures="0" errors="0" time="0.041644">
+        <testcase name="testCheck with data set &quot;NO_NUMBER_ID&quot;" assertions="2" time="0.009196"/>
+        <testcase name="testCheck with data set &quot;NO_DEPARTURE&quot;" assertions="2" time="0.008299"/>
+        <testcase name="testCheck with data set &quot;NO_ARRIVAL&quot;" assertions="2" time="0.007937"/>
+        <testcase name="testCheck with data set &quot;NO_DATE_DEPARTURE&quot;" assertions="2" time="0.008243"/>
+        <testcase name="testCheck with data set &quot;NO_DATE_arrival&quot;" assertions="2" time="0.007969"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="PlainTicketTest" file="/home/synapse/projects/secour_boarding/tests/PlainTicketTest.php" tests="9" assertions="25" failures="0" errors="0" time="0.077477">
+      <testsuite name="PlainTicketTest::testBuildFromData" tests="1" assertions="9" failures="0" errors="0" time="0.011125">
+        <testcase name="testBuildFromData with data set &quot;DATA_PLAIN&quot;" assertions="9" time="0.011125"/>
+      </testsuite>
+      <testsuite name="PlainTicketTest::testGetItenaryMsg" tests="1" assertions="2" failures="0" errors="0" time="0.008545">
+        <testcase name="testGetItenaryMsg with data set &quot;DATA_PLAIN&quot;" assertions="2" time="0.008545"/>
+      </testsuite>
+      <testsuite name="PlainTicketTest::testCheck" tests="7" assertions="14" failures="0" errors="0" time="0.057807">
+        <testcase name="testCheck with data set &quot;NO_NUMBER_ID&quot;" assertions="2" time="0.008027"/>
+        <testcase name="testCheck with data set &quot;NO_SEAT&quot;" assertions="2" time="0.007996"/>
+        <testcase name="testCheck with data set &quot;NO_GATE&quot;" assertions="2" time="0.008018"/>
+        <testcase name="testCheck with data set &quot;NO_DEPARTURE&quot;" assertions="2" time="0.008221"/>
+        <testcase name="testCheck with data set &quot;NO_ARRIVAL&quot;" assertions="2" time="0.008470"/>
+        <testcase name="testCheck with data set &quot;NO_DATE_DEPARTURE&quot;" assertions="2" time="0.008583"/>
+        <testcase name="testCheck with data set &quot;NO_DATE_arrival&quot;" assertions="2" time="0.008492"/>
+      </testsuite>
+    </testsuite>
+    <testsuite name="SecourBoardingTest" file="/home/synapse/projects/secour_boarding/tests/SecourBoardingTest.php" tests="2" assertions="15" failures="0" errors="0" time="0.026321">
+      <testcase name="testConstructor" class="SecourBoardingTest" file="/home/synapse/projects/secour_boarding/tests/SecourBoardingTest.php" line="19" assertions="1" time="0.008479"/>
+      <testcase name="testGetItinerary" class="SecourBoardingTest" file="/home/synapse/projects/secour_boarding/tests/SecourBoardingTest.php" line="30" assertions="14" time="0.017842"/>
+    </testsuite>
+    <testsuite name="TrainTicketTest" file="/home/synapse/projects/secour_boarding/tests/TrainTicketTest.php" tests="8" assertions="23" failures="0" errors="0" time="0.070006">
+      <testsuite name="TrainTicketTest::testBuildFromData" tests="1" assertions="9" failures="0" errors="0" time="0.010569">
+        <testcase name="testBuildFromData with data set &quot;DATA_TRAIN&quot;" assertions="9" time="0.010569"/>
+      </testsuite>
+      <testsuite name="TrainTicketTest::testGetItenaryMsg" tests="1" assertions="2" failures="0" errors="0" time="0.008519">
+        <testcase name="testGetItenaryMsg with data set &quot;DATA_TRAIN&quot;" assertions="2" time="0.008519"/>
+      </testsuite>
+      <testsuite name="TrainTicketTest::testCheck" tests="6" assertions="12" failures="0" errors="0" time="0.050918">
+        <testcase name="testCheck with data set &quot;NO_NUMBER_ID&quot;" assertions="2" time="0.008567"/>
+        <testcase name="testCheck with data set &quot;NO_SEAT&quot;" assertions="2" time="0.008354"/>
+        <testcase name="testCheck with data set &quot;NO_DEPARTURE&quot;" assertions="2" time="0.008503"/>
+        <testcase name="testCheck with data set &quot;NO_ARRIVAL&quot;" assertions="2" time="0.008498"/>
+        <testcase name="testCheck with data set &quot;NO_DATE_DEPARTURE&quot;" assertions="2" time="0.008579"/>
+        <testcase name="testCheck with data set &quot;NO_DATE_arrival&quot;" assertions="2" time="0.008417"/>
+      </testsuite>
+    </testsuite>
+  </testsuite>
+</testsuites>

@@ -1,0 +1,62 @@
+[
+    {
+      "id_ticket":  2,
+      "departure": "marseille",
+      "arrival": "barcelone",
+      "seat": "24A",
+      "type": "PLAIN",
+      "counter": 344,
+      "number": "1985B",
+      "departureDate": "01/02/2020 08:00",
+      "arrivalDate": "01/02/2020 09:00",
+      "gate": "45B"
+    },
+    {
+      "id_ticket":  4,
+      "departure": "madrid",
+      "arrival": "alicante",
+      "seat": "24A",
+      "type": "PLAIN",
+      "counter": 500,
+      "number": "1988C",
+      "departureDate": "01/02/2020 14:00",
+      "arrivalDate": "01/02/2020 15:00",
+      "gate": "46B"
+    },
+    {
+      "id_ticket":  3,
+      "departure": "barcelone",
+      "arrival": "madrid",
+      "seat": "",
+      "type": "BUS",
+      "counter": null,
+      "number": "1100",
+      "departureDate": "01/02/2020 11:00:00",
+      "arrivalDate": "01/02/2020 14:00",
+      "gate": ""
+    },
+    {
+      "id_ticket":  5,
+      "departure": "alicante",
+      "arrival": "canari",
+      "seat": "24A",
+      "type": "PLAIN",
+      "counter": null,
+      "number": "1954A",
+      "departureDate": "01/02/2020 17:00",
+      "arrivalDate": "01/02/2020 20:00",
+      "gate": "47B"
+    },
+    {
+      "id_ticket":  1,
+      "departure": "nice",
+      "arrival": "marseille",
+      "seat": "78A",
+      "type": "TRAIN",
+      "counter": 200,
+      "number": "35A",
+      "departureDate": "01/02/2020 04:00",
+      "arrivalDate": "01/02/2020 07:00",
+      "gate": ""
+    }
+]
